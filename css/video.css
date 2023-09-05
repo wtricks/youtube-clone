@@ -96,12 +96,16 @@ main {
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 .profile-info p {
     font-size: 0.6rem;
     margin-top: 0;
     margin-bottom: 0;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 .reaction {
@@ -197,3 +201,7 @@ main {
     outline: 0;
     color: var(--white);
 }
+
+[close] {
+        transform: translateX(-100%);
+    }

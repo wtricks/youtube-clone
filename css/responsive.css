@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width: 644px) {
-    nav {
+    [close] {
         transform: translateX(-100%);
     }
 

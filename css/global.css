@@ -97,6 +97,8 @@ nav {
     padding-bottom: 20px;
     bottom: 0px;
     z-index: 500;
+    background-color: var(--bg1);
+    left: 0;
 }
 
 nav ul {
@@ -176,6 +178,7 @@ main {
     padding-left: 230px;
     overflow-y: auto;
     height: calc(100vh - 55px);
+    background-color: var(--bg2);
 }
 
 main .cat {
@@ -185,10 +188,16 @@ main .cat {
     width: 100%;
     overflow-x: auto;
     padding-bottom: 8px;
+    background-color: var(--bg1);
 }
 
+main .cat::-webkit-scrollbar-track,
 main .cat::-webkit-scrollbar {
-    display: none;
+    height: 5px;
+}
+
+main .cat::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
 }
 
 main .cat a {
@@ -282,3 +291,21 @@ main .cat a:hover {
 }
 
 /* RESPONSIVE */
+.loader {
+    height: var(--size);
+    width: var(--size);
+    border: 3px solid var(--border);
+    border-right-color: var(--bg2);
+    border-bottom-color: var(--bg2);
+    border-radius: 50%;
+    animation: rotate 300ms linear infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

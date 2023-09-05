@@ -16,12 +16,16 @@
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 .profile-info p {
     font-size: 0.6rem;
     margin-top: 0;
     margin-bottom: 0;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 .profile-options {
@@ -44,8 +48,9 @@
     overflow-x: auto;
 }
 
+.profile-options ul::-webkit-scrollbar-track,
 .profile-options ul::-webkit-scrollbar {
-    display: none;
+    height: 5px;
 }
 
 .featured {

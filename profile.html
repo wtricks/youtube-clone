@@ -18,7 +18,7 @@
 <body>
     <header class="sticky top-0 w-100 d-flex justify-content-between align-items-center border-1">
         <div class="lp left d-flex align-items-center">
-            <button class="btn icon" type="button">
+            <button class="btn icon" type="button" id="menu">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M29 14H11V13H29V14ZM29 19H11V20H29V19ZM29 25H11V26H29V25Z" fill="black"/>
                 </svg>
@@ -329,10 +329,8 @@
             </section>
             <div class="w-100 d-flex align-items-center justify-content-between position-relative profile-info">
                 <div class="user-info d-flex align-items-center">
-                    <img src="./images/User-Avatar.png" alt="User 1">
-                    <div>
-                        <h3>Marcus Levin</h3>
-                        <p>1.2 subscribers</p>
+                    <div style="height: 150px;display:flex" class="side-loader align-items-center justify-content-center">
+                        <div class="loader" style="--size: 50px"></div>
                     </div>
                 </div>
 
@@ -361,11 +359,8 @@
                 </ul>
             </div>
             <section class="featured d-flex w-100">
-                <div class="box"></div>
-                <div class="d-block">
-                    <h4>Blind Woodturner: Turning passion into fine art</h4>
-                    <span>576,969 views . 3 weeks ago</span>
-                    <p>Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country.</p>
+                <div style="height: 150px;display:flex" class="align-items-center justify-content-center">
+                    <div class="loader" style="--size: 50px"></div>
                 </div>
             </section>
             <div class="extra d-flex align-items-center">
@@ -376,100 +371,25 @@
                 <h3>Play All</h3>
             </div>
             <section class="video-section p-3">
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
+                <div style="height: 150px;display:flex" class="video-loader align-items-center justify-content-center">
+                    <div class="loader" style="--size: 50px"></div>
                 </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
 
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- Videos here -->
             </section>
         </main>
     </div>
 
-    <script src="./js/profile.js"></script>
+    <script>
+        document.getElementById("menu").addEventListener("click", () => {
+            const sidebar = document.querySelector("nav");
+            if (sidebar.hasAttribute("close")) {
+                sidebar.removeAttribute("close")
+            } else {
+                sidebar.setAttribute("close", true)
+            }
+        });
+    </script>
+    <script src="./js/profile.js" type="module"></script>
 </body>
 </html>

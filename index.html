@@ -17,7 +17,7 @@
 <body>
     <header class="sticky top-0 w-100 d-flex justify-content-between align-items-center border-1">
         <div class="lp left d-flex align-items-center">
-            <button class="btn icon" type="button">
+            <button class="btn icon" type="button" id="menu">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M29 14H11V13H29V14ZM29 19H11V20H29V19ZM29 25H11V26H29V25Z" fill="black"/>
                 </svg>
@@ -96,7 +96,7 @@
     </header>
 
     <div class="main-content d-flex h-100">
-        <nav class="border-1 position-fixed">
+        <nav class="border-1 position-fixed" close>
             <ul class="menu-items" role="menu">
                 <li class="list-item">
                     <a href="#" class="active h-100 w-100 d-flex align-items-center">
@@ -187,29 +187,30 @@
             </ul>
 
             <h2 class="text-md">Subscriptions</h2>
+            <!-- .loaded -->
             <ul class="subscription" role="menu">
+
                 <li class="list-item">
                     <a href="#" class="h-100 w-100 d-flex align-items-center">
                         <img src="./images/avatar-1.png" alt="Subscription 1">
-    
-                        <span>James Gouse</span>
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a href="#" class="h-100 w-100 d-flex align-items-center">
-                        <img src="./images/avatar-2.jpg" alt="Subscription 1">
-    
+
                         <span>Alan Cooper</span>
                     </a>
                 </li>
                 <li class="list-item">
                     <a href="#" class="h-100 w-100 d-flex align-items-center">
-                        <img src="./images/avatar-3.png" alt="Subscription 1">
-    
-                        <span>Marcus Levin</span>
+                        <img src="./images/avatar-2.jpg" alt="Subscription 1">
+
+                        <span>James hip</span>
                     </a>
                 </li>
+                <li class="list-item">
+                    <a href="#" class="h-100 w-100 d-flex align-items-center">
+                        <img src="./images/avatar-3.png" alt="Subscription 1">
 
+                        <span>Willima Woo</span>
+                    </a>
+                </li>
                 <li class="list-item">
                     <a href="#" class="h-100 w-100 d-flex align-items-center">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -324,119 +325,32 @@
         </nav>
         <main class="w-100">
             <section class="cat w-100 d-flex">
-                <a href="#" class="active">All</a>
-                <a href="#" class="">Music</a>
-                <a href="#" class="">Gaming</a>
-                <a href="#" class="">Dancing</a>
-                <a href="#" class="">Programming</a>
-                <a href="#" class="">Javascript</a>
-                <a href="#" class="">Anuj Kumar</a>
-                <a href="#" class="">Web Tricks</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-                <a href="#" class="">Items</a>
-            </section>
-            <section class="video-section p-3">
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-card card border-0">
-                    <a href="#" title="Video" class="card-header position-relative">
-                        <img src="./images/thubnail.png" alt="Thubnail">
-                        <time>02:30</time>
-                    </a>
-
-                    <div class="card-body d-flex align-items-start">
-                        <a class="avatar" href="#">
-                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
-                        </a>
-                        <div class="info w-100 text-white">
-                            <h5>Lorem ipsum dolor sit amet, consecte 
-                                adipiscing elit.</h5>
-                            <span>James Gousa</span>
-                            <span>15k Views. 1 week ago</span>
-                        </div>
-                    </div>
+                <a href="/" class="active">All</a>
+                <div class="cat-loader d-flex align-items-center justify-content-center">
+                    <div class="loader" style="--size: 30px"></div>
                 </div>
             </section>
+            <section class="video-section position-relative p-3">
+                <!-- Video will be here -->
+            </section>
+            <div style="height: 150px;display:flex" class="video-loader align-items-center justify-content-center">
+                <div class="loader" style="--size: 50px"></div>
+            </div>
+
+            <div style="height: 30px;width:100%" id="lastElem"></div>
         </main>
     </div>
 
-    <script src="./js/home.js"></script>
+    <script>
+        document.getElementById("menu").addEventListener("click", () => {
+            const sidebar = document.querySelector("nav");
+            if (sidebar.hasAttribute("close")) {
+                sidebar.removeAttribute("close")
+            } else {
+                sidebar.setAttribute("close", true)
+            }
+        });
+    </script>
+    <script src="./js/home.js" type="module"></script>
 </body>
 </html>
