@@ -54,7 +54,7 @@ export const API = async (path, params) => {
     }
 
     try {
-        const e = await fetch(`https://www.googleapis.com/youtube/v3/${path}&key=AIzaSyALJd4lJaW_3pOn-XeE5Bg0Be_FO5u9X0M`);
+        const e = await fetch(`https://www.googleapis.com/youtube/v3/${path}&key=AIzaSyDNsSbgsOQQh5YDgWJBTQjYcLWFlvPRL8s`);
         return await e.json();
     } catch (err) {
         console.log(err);
