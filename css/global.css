@@ -1,0 +1,284 @@
+:root {
+    --bg1: #212121;
+    --bg2: #121212;
+    --border: #303030;
+    --black: black;
+    --white: white;
+    --gray: #aaaaaa;
+}
+
+body {
+    background-color: var(--bg1);
+    color: var(--white);
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+header {
+    padding: 0 16px;
+    z-index: 1000;
+}
+
+header div:not(.left) svg {
+    height: 22px;
+    width: 22px;
+}
+
+header svg:not(.logo-svg) path {
+    fill: white;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.icon:hover {
+    background-color: var(--bg2);
+}
+
+.profile {
+    overflow: hidden;
+}
+
+header .input-group {
+    background-color: var(--bg2);
+    padding: 0px 12px;
+    padding-right: 0;
+    width: 100%;
+    border: 1px solid var(--border);
+    height: 37px;
+}
+
+header .input-group input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 0.9rem;
+    flex: 1;
+    color: var(--white);
+}
+
+header .input-group button {
+    background-color: var(--border);
+    height: 100%;
+    width: 60px;
+    border-radius: 0;
+    padding: 0;
+}
+
+header .input-group button:hover {
+    background-color: var(--border);
+    opacity: 0.7;
+}
+
+header form {
+    margin-right: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+
+header .lp:not(.mid) {
+    width: max-content;
+}
+
+nav {
+    border-right: 1px solid var(--border);
+    top: 55px;
+    width: 230px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    bottom: 0px;
+    z-index: 500;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    padding-right: 20px;
+}
+
+nav ul li {
+    margin: 2px 0;
+}
+
+nav ul a {
+    padding: 6px 12px;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: 0.3s;
+    padding-left: 17px;
+    font-weight: 300;
+}
+
+nav ul svg {
+    margin-right: 12px;
+    height: 22px;
+    width: 22px;
+}
+
+nav ul a.active,
+nav ul a:hover {
+    font-weight: bold;
+    background-color: var(--border);
+}
+
+nav .divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--border);
+    margin: 12px 0;
+}
+
+nav h2 {
+    font-size: 0.7rem;
+    margin-left: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+nav .linkes {
+    padding: 0 8px;
+}
+
+nav .link {
+    font-size: 0.65rem;
+    text-decoration: none;
+    margin: 1px 2px;
+    color: var(--white);
+    transform: 0.3s;
+}
+
+nav .link:not(div):hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+/* MAIN CONTENT */
+
+main {
+    padding-left: 230px;
+    overflow-y: auto;
+    height: calc(100vh - 55px);
+}
+
+main .cat {
+    padding-left: 12px;
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+main .cat::-webkit-scrollbar {
+    display: none;
+}
+
+main .cat a {
+    font-size: 0.8rem;
+    color: #fff;
+    border: 1px solid var(--border);
+    padding: 3px 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 0 3px;
+    transition: 0.3s;
+    background-color: #1212124e;
+    flex-shrink: 0;
+}
+
+main .cat a.active,
+main .cat a:hover {
+    background-color: #fff;
+    color: var(--black);
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--bg2);
+    border-radius: 1rem;
+}
+/* SCROLLBAR */
+
+/* VIDEO */
+.video-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--bg2);
+}
+
+.video-card {
+    /* flex: 1 1 240px; */
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    max-width: 270px;
+}
+
+.video-card .card-header {
+    padding: 0;
+}
+
+.video-card .card-header img {
+    max-width: 100%;
+}
+
+.video-card time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--white);
+    font-size: 0.6rem;
+    background-color: var(--bg2);
+    padding: 0.1rem 0.4rem;
+    line-height: 0.6rem;
+}
+
+.video-card h5 {
+    font-size: 0.8rem;
+}
+
+.video-card span {
+    font-size: 0.6rem;
+    color: var(--gray);
+    display: block;
+}
+
+.video-card .avatar {
+    margin-right: 8px;
+}
+
+.video-card .avatar img {
+    height: 35px;
+    width: 35px;
+}
+
+.video-card .info {
+    padding-left: 8px;
+}
+
+.video-card .card-body {
+    padding: 0.5rem 0.7rem;
+}
+
+/* RESPONSIVE */

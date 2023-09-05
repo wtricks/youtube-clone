@@ -1,0 +1,199 @@
+main {
+    padding-left: 0;
+    padding-top: 12px;
+    background-color: var(--bg2);
+}
+
+.main {
+    border: 1px solid #fff;
+    padding-bottom: 40px;
+}
+
+.video-player {
+    width: 100%;
+    max-width: 600px;
+}
+
+.video-card {
+    margin-top: 12px;
+    width: 100%;
+    max-width: 330px
+}
+
+.video-card a {
+    max-width: 150px;
+}
+
+.video-card .card-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-card .card-body img {
+    display: none;
+}
+
+.video-card .card-body {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.video-card h5 {
+    margin-top: 0;
+}
+
+.video-card time {
+    right: 3px;
+    bottom: 3px;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid;
+    height: 100%;
+    max-height: 300px;
+    margin-top: 14px;
+}
+
+.video-player {
+    padding: 0 16px;
+}
+
+.video-player h5 {
+    font-size: 0.9rem;
+    margin-top: 14px;
+}
+
+.video-player .video-info {
+    display: flex;
+    font-size: 0.6rem;
+    color: var(--gray);
+    display: flex;
+}
+
+.video-player .video-info p {
+    margin-bottom: 0;
+    line-height: 0.6rem;
+    margin-right: auto;
+}
+
+.about {
+    font-size: 0.7rem;
+}
+
+.profile-info {
+    padding: 20px 16px;
+    border-top: 1px solid var(--border);
+}
+
+.profile-info img {
+    height: 50px;
+    width: 50px;
+    margin-right: 14px;
+}
+
+.profile-info h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 0.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+}
+
+.reaction svg {
+    height: 20px;
+    width: 20px;
+}
+
+.comments {
+    border-top: 1px solid var(--border);
+    padding-bottom: 50px;
+    padding-top: 14px;
+}
+
+.extra h2,
+.extra h3 {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+.extra h3 {
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.extra svg {
+    height: 20px;
+    width: 20px;
+    margin-left: 16px;
+}
+
+/* COMMENTS */
+.comment {
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.comment:hover {
+    background-color: var(--bg1);
+}
+
+.comment .avatar img {
+    height: 35px;
+    width: 35px;
+}
+
+.comment .info {
+    margin-left: 12px;
+}
+
+.comment .name h5 {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.comment .name time {
+    font-size: 0.6rem;
+    color: var(--gray);
+    margin-left: 12px;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.comment p {
+    font-size: 0.8rem;
+    margin-top: 8px;
+}
+
+.comment .options svg {
+    height: 16px;
+    width: 16px;
+}
+
+.comment .options button {
+    margin: 0;
+    margin-right: 6px;
+}
+
+.comment .input {
+    margin-left: 14px;
+    border-bottom: 1px solid var(--border);
+}
+
+.comment .input input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: var(--white);
+}

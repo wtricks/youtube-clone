@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Rubik:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./core/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <title>Profile | Youtube Clone</title>
+</head>
+<body>
+    <header class="sticky top-0 w-100 d-flex justify-content-between align-items-center border-1">
+        <div class="lp left d-flex align-items-center">
+            <button class="btn icon" type="button">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29 14H11V13H29V14ZM29 19H11V20H29V19ZM29 25H11V26H29V25Z" fill="black"/>
+                </svg>
+            </button>
+            <a href="/" class="logo d-block">          
+                <svg class="logo-svg" width="110" height="53" viewBox="0 0 120 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_4204_1075)">
+                        <path d="M43.9727 21.1232C43.6435 19.8932 42.6768 18.9266 41.4468 18.5974C39.2197 18 30.285 18 30.285 18C30.285 18 21.3504 18 19.1232 18.5974C17.8932 18.9266 16.9266 19.8932 16.5974 21.1232C16 23.3504 16 28 16 28C16 28 16 32.6496 16.5974 34.8768C16.9266 36.1068 17.8932 37.0734 19.1232 37.4026C21.3504 38 30.285 38 30.285 38C30.285 38 39.2197 38 41.4468 37.4026C42.6768 37.0734 43.6435 36.1068 43.9727 34.8768C44.5701 32.6496 44.5701 28 44.5701 28C44.5701 28 44.5677 23.3504 43.9727 21.1232Z" fill="#FF0000"/>
+                        <path d="M27.4253 32.2854L34.8477 28.0004L27.4253 23.7153V32.2854Z" fill="white"/>
+                        <path d="M50.6024 31.0036L47.3945 19.4185H50.1932L51.3174 24.6701C51.6043 25.9636 51.8136 27.0666 51.95 27.9791H52.0323C52.1264 27.3253 52.3381 26.2294 52.665 24.6889L53.8291 19.4185H56.6278L53.3799 31.0036V36.561H50.6001V31.0036H50.6024Z" fill="white"/>
+                        <path d="M57.4698 36.1937C56.9054 35.8127 56.5032 35.22 56.2633 34.4157C56.0258 33.6114 55.9059 32.5437 55.9059 31.2078V29.3898C55.9059 28.0422 56.0423 26.9581 56.3151 26.142C56.5879 25.3259 57.0136 24.7285 57.5921 24.3546C58.1707 23.9806 58.9303 23.7925 59.8711 23.7925C60.7977 23.7925 61.5385 23.983 62.0982 24.364C62.6556 24.745 63.0648 25.3423 63.3235 26.1514C63.5822 26.9628 63.7116 28.0422 63.7116 29.3898V31.2078C63.7116 32.5437 63.5846 33.6161 63.333 34.4251C63.0813 35.2365 62.6721 35.8292 62.1076 36.2031C61.5432 36.5771 60.7765 36.7652 59.8099 36.7652C58.8127 36.7675 58.0343 36.5747 57.4698 36.1937ZM60.6354 34.2323C60.7906 33.8231 60.8706 33.1575 60.8706 32.2309V28.3292C60.8706 27.4308 60.793 26.7723 60.6354 26.3583C60.4778 25.9421 60.2027 25.7351 59.8075 25.7351C59.4266 25.7351 59.1561 25.9421 59.0009 26.3583C58.8433 26.7746 58.7657 27.4308 58.7657 28.3292V32.2309C58.7657 33.1575 58.8409 33.8254 58.9915 34.2323C59.142 34.6415 59.4124 34.8461 59.8075 34.8461C60.2027 34.8461 60.4778 34.6415 60.6354 34.2323Z" fill="white"/>
+                        <path d="M72.8154 36.5634H70.6094L70.3648 35.03H70.3037C69.7039 36.1871 68.8055 36.7656 67.6061 36.7656C66.7759 36.7656 66.1621 36.4928 65.767 35.9496C65.3719 35.4039 65.1743 34.5526 65.1743 33.3955V24.0375H67.9942V33.2308C67.9942 33.7906 68.0553 34.188 68.1776 34.4256C68.2999 34.6631 68.5045 34.783 68.7914 34.783C69.036 34.783 69.2712 34.7078 69.497 34.5573C69.7228 34.4067 69.8874 34.2162 69.9979 33.9858V24.0352H72.8154V36.5634Z" fill="white"/>
+                        <path d="M80.4755 21.6876H77.6768V36.5629H74.9181V21.6876H72.1194V19.4204H80.4755V21.6876Z" fill="white"/>
+                        <path d="M87.2768 36.5634H85.0708L84.8262 35.03H84.7651C84.1654 36.1871 83.267 36.7656 82.0675 36.7656C81.2373 36.7656 80.6235 36.4928 80.2284 35.9496C79.8333 35.4039 79.6357 34.5526 79.6357 33.3955V24.0375H82.4556V33.2308C82.4556 33.7906 82.5167 34.188 82.639 34.4256C82.7613 34.6631 82.9659 34.783 83.2529 34.783C83.4974 34.783 83.7326 34.7078 83.9584 34.5573C84.1842 34.4067 84.3488 34.2162 84.4593 33.9858V24.0352H87.2768V36.5634Z" fill="white"/>
+                        <path d="M96.609 26.0387C96.4373 25.2485 96.1621 24.677 95.7812 24.3219C95.4002 23.9667 94.8757 23.7903 94.2078 23.7903C93.6904 23.7903 93.2059 23.9362 92.7567 24.2301C92.3075 24.5241 91.9594 24.9075 91.7148 25.3849H91.6937V18.7856H88.9773V36.5608H91.3056L91.5925 35.3755H91.6537C91.8724 35.7988 92.1993 36.1304 92.6344 36.3774C93.0695 36.622 93.554 36.7443 94.0855 36.7443C95.038 36.7443 95.7412 36.3045 96.1904 35.4272C96.6396 34.5476 96.8653 33.1765 96.8653 31.3092V29.3266C96.8653 27.9272 96.7783 26.8289 96.609 26.0387ZM94.0243 31.1492C94.0243 32.0617 93.9867 32.7767 93.9114 33.2941C93.8362 33.8115 93.7115 34.1808 93.5328 34.3971C93.3564 34.6158 93.1165 34.724 92.8178 34.724C92.585 34.724 92.371 34.6699 92.1734 34.5594C91.9759 34.4512 91.816 34.2866 91.6937 34.0702V26.9606C91.7877 26.6196 91.9524 26.3421 92.1852 26.1234C92.4157 25.9046 92.6697 25.7965 92.9401 25.7965C93.2271 25.7965 93.4481 25.9093 93.6034 26.1328C93.7609 26.3585 93.8691 26.7348 93.9303 27.2664C93.9914 27.7979 94.022 28.5528 94.022 29.5335V31.1492H94.0243Z" fill="white"/>
+                        <path d="M100.866 31.8712C100.866 32.6755 100.889 33.2776 100.936 33.6798C100.983 34.0819 101.082 34.3736 101.233 34.5594C101.383 34.7428 101.614 34.8345 101.926 34.8345C102.347 34.8345 102.639 34.6699 102.794 34.343C102.952 34.0161 103.036 33.4705 103.051 32.7085L105.482 32.8519C105.496 32.9601 105.503 33.1106 105.503 33.3011C105.503 34.4582 105.186 35.3237 104.553 35.8952C103.921 36.4667 103.025 36.7536 101.868 36.7536C100.478 36.7536 99.504 36.3185 98.9466 35.446C98.3869 34.5735 98.1094 33.2259 98.1094 31.4008V29.2136C98.1094 27.3345 98.3987 25.9611 98.9772 25.0956C99.5558 24.2301 100.546 23.7974 101.95 23.7974C102.916 23.7974 103.66 23.9738 104.177 24.3289C104.694 24.684 105.059 25.2343 105.271 25.9846C105.482 26.7348 105.588 27.7696 105.588 29.0913V31.2362H100.866V31.8712ZM101.223 25.9681C101.08 26.1445 100.986 26.4338 100.936 26.8359C100.889 27.2381 100.866 27.8472 100.866 28.6657V29.5641H102.928V28.6657C102.928 27.8613 102.9 27.2522 102.846 26.8359C102.792 26.4197 102.693 26.128 102.55 25.9564C102.406 25.787 102.185 25.7 101.886 25.7C101.585 25.7024 101.364 25.7917 101.223 25.9681Z" fill="white"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_4204_1075">
+                            <rect width="90" height="20" fill="white" transform="translate(16 18)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+        </div>
+
+        <div class="mid d-flex align-items-center w-100 justify-content-center">
+            <form class="search" method="get" action="#">
+                <div class="input-group d-flex">
+                    <input type="text" class="" placeholder="Search">
+
+                    <button type="submit" class="btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.87 20.17L15.28 14.58C16.35 13.35 17 11.75 17 10C17 6.13 13.87 3 10 3C6.13 3 3 6.13 3 10C3 13.87 6.13 17 10 17C11.75 17 13.35 16.35 14.58 15.29L20.17 20.88L20.87 20.17ZM10 16C6.69 16 4 13.31 4 10C4 6.69 6.69 4 10 4C13.31 4 16 6.69 16 10C16 13.31 13.31 16 10 16Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <button class="btn icon" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3C10.34 3 9 4.37 9 6.07V11.93C9 13.63 10.34 15 12 15C13.66 15 15 13.63 15 11.93V6.07C15 4.37 13.66 3 12 3ZM18.5 12H17.5C17.5 15.03 15.03 17.5 12 17.5C8.97 17.5 6.5 15.03 6.5 12H5.5C5.5 15.24 7.89 17.93 11 18.41V21H13V18.41C16.11 17.93 18.5 15.24 18.5 12Z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="lp d-flex align-items-center">
+            <button type="submit" class="btn sm-sc d-none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.87 20.17L15.28 14.58C16.35 13.35 17 11.75 17 10C17 6.13 13.87 3 10 3C6.13 3 3 6.13 3 10C3 13.87 6.13 17 10 17C11.75 17 13.35 16.35 14.58 15.29L20.17 20.88L20.87 20.17ZM10 16C6.69 16 4 13.31 4 10C4 6.69 6.69 4 10 4C13.31 4 16 6.69 16 10C16 13.31 13.31 16 10 16Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="btn icon sm-sc d-none" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3C10.34 3 9 4.37 9 6.07V11.93C9 13.63 10.34 15 12 15C13.66 15 15 13.63 15 11.93V6.07C15 4.37 13.66 3 12 3ZM18.5 12H17.5C17.5 15.03 15.03 17.5 12 17.5C8.97 17.5 6.5 15.03 6.5 12H5.5C5.5 15.24 7.89 17.93 11 18.41V21H13V18.41C16.11 17.93 18.5 15.24 18.5 12Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="btn icon lg-sc" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 13H11V16H9V13H6V11H9V8H11V11H14V13ZM17 6H3V18H17V11.61L21 13.44V8.56L17 10.39V6ZM18 5V8.83L22 7V15L18 13.17V19H2V5H18Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="btn icon lg-sc" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 4V8H20V4H16ZM19 7H17V5H19V7ZM16 10V14H20V10H16ZM19 13H17V11H19V13ZM10 4V8H14V4H10ZM13 7H11V5H13V7ZM10 10V14H14V10H10ZM13 13H11V11H13V13ZM16 16V20H20V16H16ZM19 19H17V17H19V19ZM10 16V20H14V16H10ZM13 19H11V17H13V19ZM4 4V8H8V4H4ZM7 7H5V5H7V7ZM4 10V14H8V10H4ZM7 13H5V11H7V13ZM4 16V20H8V16H4ZM7 19H5V17H7V19Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="btn icon" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 20H14C14 21.1 13.1 22 12 22C10.9 22 10 21.1 10 20ZM20 17.35V19H4V17.35L6 15.47V10.32C6 7.40001 7.56 5.10001 10 4.34001V3.96001C10 2.54001 11.49 1.46001 12.99 2.20001C13.64 2.52001 14 3.23001 14 3.96001V4.35001C16.44 5.10001 18 7.41001 18 10.33V15.48L20 17.35ZM19 17.77L17 15.89V10.42C17 7.95001 15.81 6.06001 13.87 5.32001C12.61 4.79001 11.23 4.82001 10.03 5.35001C8.15 6.11001 7 7.99001 7 10.42V15.89L5 17.77V18H19V17.77Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="btn profile icon" type="button">
+                <img src="./images/User-Avatar.png" alt="Avatar">
+            </button>
+        </div>
+    </header>
+
+    <div class="main-content d-flex h-100">
+        <main class="w-100 position-relative d-flex justify-content-center">
+            <div class="video-player">
+                <div class="box">
+                    <!-- IFRAME HERE -->
+                </div>
+                <h5>Blind Woodturner: Turning passion into fine art</h5>
+                <div class="video-info">
+                    <p>576,969 views . Oct 8, 2021</p>
+                    
+                    <div class="reaction d-flex align-items-center ml-auto">
+                        <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.77 11H14.54L16.06 6.06C16.38 5.03 15.54 4 14.38 4C13.8 4 13.24 4.24 12.86 4.65L7 11H3V21H7H8H17.43C18.49 21 19.41 20.33 19.62 19.39L20.96 13.39C21.23 12.15 20.18 11 18.77 11ZM7 20H4V12H7V20ZM19.98 13.17L18.64 19.17C18.54 19.65 18.03 20 17.43 20H8V11.39L13.6 5.33C13.79 5.12 14.08 5 14.38 5C14.64 5 14.88 5.11 15.01 5.3C15.08 5.4 15.16 5.56 15.1 5.77L13.58 10.71L13.18 12H14.53H18.76C19.17 12 19.56 12.17 19.79 12.46C19.92 12.61 20.05 12.86 19.98 13.17Z" fill="white"/>
+                            </svg>
+                        </button>
+                        <span style="font-size: 0.7rem;">1.7k</span>
+                    </div>
+                    <div class="reaction d-flex align-items-center ml-auto">
+                        <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.0001 4H16.0001H6.57007C5.50007 4 4.59007 4.67 4.38007 5.61L3.04007 11.61C2.77007 12.85 3.82007 14 5.23007 14H9.46007L7.94007 18.94C7.62007 19.97 8.46007 21 9.62007 21C10.2001 21 10.7601 20.76 11.1401 20.35L17.0001 14H21.0001V4H17.0001ZM10.4001 19.67C10.2101 19.88 9.92007 20 9.62007 20C9.36007 20 9.12007 19.89 8.99007 19.7C8.92007 19.6 8.84007 19.44 8.90007 19.23L10.4201 14.29L10.8201 13H9.46007H5.23007C4.82007 13 4.43007 12.83 4.20007 12.54C4.08007 12.39 3.95007 12.14 4.02007 11.82L5.36007 5.82C5.46007 5.35 5.97007 5 6.57007 5H16.0001V13.61L10.4001 19.67ZM20.0001 13H17.0001V5H20.0001V13Z" fill="white"/>
+                            </svg>
+                        </button>
+                        <span style="font-size: 0.7rem;">1.7k</span>
+                    </div>
+                    <div class="reaction d-flex align-items-center ml-auto">
+                        <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 2.63L18.66 9L13 15.37V12V11H12C8.04 11 4.86 12 2.25 14.09C4.09 10.02 7.36 7.69 12.14 6.99L13 6.86V6V2.63ZM12 0V6C4.22 7.13 1.11 12.33 0 18C2.78 14.03 6.44 12 12 12V18L20 9L12 0Z" fill="white"/>
+                            </svg>
+                        </button>
+                        <span style="font-size: 0.7rem;">Share</span>
+                    </div>
+                    <div class="reaction d-flex align-items-center ml-auto">
+                        <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                            <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6H16V10H14V6H10V4H14V0H16V4H20V6ZM12 0H0V1H12V0ZM0 5H8V4H0V5ZM0 9H8V8H0V9Z" fill="white"/>
+                            </svg>
+                        </button>
+                        <span style="font-size: 0.7rem;">Save</span>
+                    </div>
+                    <div class="reaction d-flex align-items-center ml-auto">
+                        <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 12C7.5 12.83 6.83 13.5 6 13.5C5.17 13.5 4.5 12.83 4.5 12C4.5 11.17 5.17 10.5 6 10.5C6.83 10.5 7.5 11.17 7.5 12ZM12 10.5C11.17 10.5 10.5 11.17 10.5 12C10.5 12.83 11.17 13.5 12 13.5C12.83 13.5 13.5 12.83 13.5 12C13.5 11.17 12.83 10.5 12 10.5ZM18 10.5C17.17 10.5 16.5 11.17 16.5 12C16.5 12.83 17.17 13.5 18 13.5C18.83 13.5 19.5 12.83 19.5 12C19.5 11.17 18.83 10.5 18 10.5Z" fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-100 d-flex align-items-center justify-content-between position-relative profile-info">
+                    <div class="user-info d-flex align-items-center">
+                        <img src="./images/User-Avatar.png" alt="User 1">
+                        <div>
+                            <h3>Marcus Levin</h3>
+                            <p>1.2 subscribers</p>
+                        </div>
+                    </div>
+    
+                    <button class="btn btn-sm btn-danger" type="button">Subscribe</button>
+                </div>
+                <div class="about">
+                    <p>Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country.</p>
+                </div>
+
+                <div class="comments w-100">
+                    <div class="extra d-flex align-items-center">
+                        <h2>286 Comments</h2>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 6H3V5H21V6ZM15 11H3V12H15V11ZM9 17H3V18H9V17Z" fill="white"/>
+                        </svg>
+                        <h3>SORT BY</h3>
+                    </div>
+
+                    <div class="comment d-flex w-100">
+                        <a href="#" class="avatar">
+                            <img src="./images/User-Avatar.png" alt="User avatar">
+                        </a>
+                        <div class="w-100 input">
+                            <input type="text" class="form-control" placeholder="Add a public comment">
+                        </div>
+                    </div>
+                    <div class="comment d-flex w-100">
+                        <a href="#" class="avatar">
+                            <img src="./images/User-Avatar.png" alt="User avatar">
+                        </a>
+                        <div class="info w-100">
+                            <div class="name d-flex align-items-center w-100">
+                                <h5>Alan Cooper</h5>
+                                <time>4 days ago</time>
+                            </div>
+                            <p>Comment here: Explain something</p>
+                            <div class="options w-100 d-flex">
+                                <div class="reaction d-flex align-items-center">
+                                    <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.77 11H14.54L16.06 6.06C16.38 5.03 15.54 4 14.38 4C13.8 4 13.24 4.24 12.86 4.65L7 11H3V21H7H8H17.43C18.49 21 19.41 20.33 19.62 19.39L20.96 13.39C21.23 12.15 20.18 11 18.77 11ZM7 20H4V12H7V20ZM19.98 13.17L18.64 19.17C18.54 19.65 18.03 20 17.43 20H8V11.39L13.6 5.33C13.79 5.12 14.08 5 14.38 5C14.64 5 14.88 5.11 15.01 5.3C15.08 5.4 15.16 5.56 15.1 5.77L13.58 10.71L13.18 12H14.53H18.76C19.17 12 19.56 12.17 19.79 12.46C19.92 12.61 20.05 12.86 19.98 13.17Z" fill="white"/>
+                                        </svg>
+                                    </button>
+                                    <span style="font-size: 0.7rem;">1.7k</span>
+                                </div>
+                                <div class="reaction d-flex align-items-center ml-auto">
+                                    <button class="btn icon lg-sc" type="button" style="margin-right: 0;">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.0001 4H16.0001H6.57007C5.50007 4 4.59007 4.67 4.38007 5.61L3.04007 11.61C2.77007 12.85 3.82007 14 5.23007 14H9.46007L7.94007 18.94C7.62007 19.97 8.46007 21 9.62007 21C10.2001 21 10.7601 20.76 11.1401 20.35L17.0001 14H21.0001V4H17.0001ZM10.4001 19.67C10.2101 19.88 9.92007 20 9.62007 20C9.36007 20 9.12007 19.89 8.99007 19.7C8.92007 19.6 8.84007 19.44 8.90007 19.23L10.4201 14.29L10.8201 13H9.46007H5.23007C4.82007 13 4.43007 12.83 4.20007 12.54C4.08007 12.39 3.95007 12.14 4.02007 11.82L5.36007 5.82C5.46007 5.35 5.97007 5 6.57007 5H16.0001V13.61L10.4001 19.67ZM20.0001 13H17.0001V5H20.0001V13Z" fill="white"/>
+                                        </svg>
+                                    </button>
+                                    <span style="font-size: 0.7rem;">1.7k</span>
+                                </div>
+                                <div class="reaction d-flex align-items-center ml-auto">
+                                    <span style="font-size: 0.7rem;margin-left: 12px;font-weight: 600;">Reply</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="related d-block">
+                <div class="cat w-100 d-flex" style="border: 0;">
+                    <a href="#" class="active">All</a>
+                    <a href="#" class="">From marcus Levin</a>
+                </div>
+
+                <div class="video-card card border-0 d-flex flex-row">
+                    <a href="#" title="Video" class="card-header position-relative">
+                        <img src="./images/thubnail.png" alt="Thubnail">
+                        <time>02:30</time>
+                    </a>
+
+                    <div class="card-body d-flex align-items-start">
+                        <a class="avatar" href="#">
+                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
+                        </a>
+                        <div class="info w-100 text-white">
+                            <h5>Lorem ipsum dolor sit amet, consecte.</h5>
+                            <span>James Gousa</span>
+                            <span>15k Views. 1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card card border-0 d-flex flex-row">
+                    <a href="#" title="Video" class="card-header position-relative">
+                        <img src="./images/thubnail.png" alt="Thubnail">
+                        <time>02:30</time>
+                    </a>
+
+                    <div class="card-body d-flex align-items-start">
+                        <a class="avatar" href="#">
+                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
+                        </a>
+                        <div class="info w-100 text-white">
+                            <h5>Lorem ipsum dolor sit amet, consecte.</h5>
+                            <span>James Gousa</span>
+                            <span>15k Views. 1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card card border-0 d-flex flex-row">
+                    <a href="#" title="Video" class="card-header position-relative">
+                        <img src="./images/thubnail.png" alt="Thubnail">
+                        <time>02:30</time>
+                    </a>
+
+                    <div class="card-body d-flex align-items-start">
+                        <a class="avatar" href="#">
+                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
+                        </a>
+                        <div class="info w-100 text-white">
+                            <h5>Lorem ipsum dolor sit amet, consecte.</h5>
+                            <span>James Gousa</span>
+                            <span>15k Views. 1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card card border-0 d-flex flex-row">
+                    <a href="#" title="Video" class="card-header position-relative">
+                        <img src="./images/thubnail.png" alt="Thubnail">
+                        <time>02:30</time>
+                    </a>
+
+                    <div class="card-body d-flex align-items-start">
+                        <a class="avatar" href="#">
+                            <img src="./images/avatar-1.png" class="rounded-full" alt="User 1">
+                        </a>
+                        <div class="info w-100 text-white">
+                            <h5>Lorem ipsum dolor sit amet, consecte.</h5>
+                            <span>James Gousa</span>
+                            <span>15k Views. 1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </main>
+    </div>
+
+    <script src="./js/video.js"></script>
+</body>
+</html>
