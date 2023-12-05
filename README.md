@@ -6,11 +6,6 @@ This project is a simple YouTube clone that replicates the basic functionalities
 
 Check out the live demo [here](https://wtricks.github.io/youtube-clone).
 
-## Screenshots
-
-![Home Screen](screenshots/home.png)
-*Add screenshots of Profile and Video Player screens as well*
-
 ## Technologies Used
 
 - HTML
