@@ -1,6 +1,3 @@
-Certainly! A good README file can provide important information about your project, helping others understand how to use it and contributing to its development. Here's a template you can use as a starting point:
-
-```markdown
 # YouTube Clone
 
 This project is a simple YouTube clone that replicates the basic functionalities of the YouTube website. It has three main screens: Home, Profile, and Video Player.
